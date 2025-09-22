@@ -14,13 +14,15 @@ inteiro pilha[4]
 		mostrar()
 		pop()
 		mostrar()
-		
+		push(2)
+		push(22)
+		mostrar()
 		
 	}
 	//Adiciona um elemento na pilha
 	funcao push(inteiro elemento){
 		/*Só adiciona elemento se a pilha não estiver
-		cheia*/
+		cheia*/ 
 		topo++
 		se(topo<=3){
 			
@@ -59,9 +61,9 @@ inteiro pilha[4]
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 171; 
+ * @POSICAO-CURSOR = 388; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {topo, 4, 8, 4}-{pilha, 6, 8, 5}-{elemento, 21, 21, 8};
+ * @SIMBOLOS-INSPECIONADOS = {topo, 4, 8, 4}-{pilha, 6, 8, 5}-{elemento, 23, 21, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
