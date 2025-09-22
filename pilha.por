@@ -32,6 +32,15 @@ inteiro pilha[4]
 			escreva("A pilha está vazia")
 		}
 	}
+	funcao mostrar(){
+		se(topo!=-1){
+			para(inteiro i=topo;i>=0;i--){
+				
+			}
+		}senao{
+			escreva("A pilha está vazia")
+		}
+	}
 }
 
 
@@ -44,7 +53,7 @@ inteiro pilha[4]
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 508; 
+ * @POSICAO-CURSOR = 591; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {topo, 4, 8, 4}-{pilha, 6, 8, 5}-{elemento, 16, 21, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
