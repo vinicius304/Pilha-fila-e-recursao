@@ -1,0 +1,13 @@
+oma = 0 #Variável para acumular a soma 
+
+
+for i in range(1,6):
+    num = float(input(f"Digite o {i}° número: "))
+    soma += num #soma acumulada
+
+
+    media = soma /5
+
+   
+    print(f"A soma dos números é: {soma}")
+    print(f"A média dos números é: {media}")
